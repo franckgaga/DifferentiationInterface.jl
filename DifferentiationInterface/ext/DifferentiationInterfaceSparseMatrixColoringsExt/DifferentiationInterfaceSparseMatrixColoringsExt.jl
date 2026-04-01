@@ -62,7 +62,6 @@ Return the number of colors of a sparse `prep` object created by [`prepare_jacob
 SMC.ncolors(prep::DI.SparseJacobianPrep) = ncolors(prep.coloring_result)
 
 
-
 """
     SMC.sparsity_pattern(prep::DI.SparseHessianPrep)
 
